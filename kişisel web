@@ -1,11 +1,66 @@
-{
-	"folders": [
-		{
-			"path": "../../4. hafta ödev"
-		},
-		{
-			"path": "../Proje Şablonu"
-		}
-	],
-	"settings": {}
-}
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betül'ün web sitesi</title>
+    <style>
+        body {
+            background-color: #f8f7f4;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /*menu*/
+        header {
+            background-color: transparent;
+            box-shadow: none;
+            border-radius: 0;
+
+        }
+
+        header h2 {
+            letter-spacing: 2px;
+        }
+
+        header h1 {
+            font-style: italic;
+            color: #8b7355;
+            font-family: georgia, serif;
+            font-size: 32px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Merhaba, ben Betül!</h1>
+        <img src="kapak.jpg" alt="kahve ve çalışma masası">
+    </header>
+    <p> Merhaba, ben Betül </p>
+    <h2>Ben kimim?</h2>
+    <p> Ben Betül. Bilgisayar programcılığı öğrencisiyim. Yeni şeyler keşfetmeyi, kendimi geliştirmeyi
+        ve farklı deneyimler kazanmayı seviyorum <br>
+        Teknolojiye ve yazılıma ilgi duyuyorum,
+        geleceğim için adımlar atıyorum</p>
+
+    <h3> Hedeflerim</h3>
+    <p> 💻 Yazılım öğrenmek <br>🚀 kariyerimde başarılı olmak <br>📚yeni deneyimler kazanmak
+        <br>🌍dünyayı gezmek
+    </p>
+    <h3> Projelerim</h3>
+    <a href="https://github.com/betulmetin1006-lab/su-tasarrufu" target="_blank">Su Tasarrufu Projesi</a>
+    <h3>Becerilerim</h3>
+    <p> HTML öğreniyorum <br> CSS ile tasarımlar yapıyorum. <br> Kendimi yazılım alanında geliştirmek için çalışıyorum. <br> Yeni teknolojileri öğrenmeye açığım.</p>
+    </p>
+    </div>
+</body>
+<footer>
+    <p>© 2026 Betül'ün web sitesi. Tüm hakları saklıdır.</p>
+</footer>
+
+</html>
